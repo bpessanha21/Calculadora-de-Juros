@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Calculadora de Juros Compostos</h1>
+	<label for="principal">Principal:</label>
+	<input type="number" id="principal" name="principal"><br><br>
+	<label for="taxa">Taxa de juros anual (%):</label>
+	<input type="number" id="taxa" name="taxa"><br><br>
+	<label for="periodo">Período de tempo (anos):</label>
+	<input type="number" id="periodo" name="periodo"><br><br>
+	<button onclick="calcularJuros()">Calcular juros compostos</button><br><br>
+	<label for="resultado">Resultado:</label>
+	<input type="number" id="resultado" name="resultado" readonly>
+</body>
+</html>
